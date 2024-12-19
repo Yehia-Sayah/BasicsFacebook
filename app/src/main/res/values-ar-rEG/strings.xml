@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"> فيسبوك</string>
+    <string name="username">يحيي</string>
+    <string name="TimePost">2 ساعة</string>
+    <string name="content">كل حاجة بالحب إلا الحب</string>
+    <string name="CountLikes">12</string>
+    <string name="countshare"> مشاركة1</string>
+    <string name="share">مشاركة</string>
+    <string name="like">لايك</string>
+    <string name="comment">تعليق</string>
+    <string name="Login">تسجيل دخول</string>
+    <string name="signUPforFacebook">تسجيل حساب جديد</string>
+    <string name="HelpCenter">مركز المساعدة</string>
+    <string name="HintEmailOrPhone">البريد او رقم الهاتف</string>
+    <string name="HintPassword">"كلمة السر "</string>
+    <string name="facebooktitle">فيسبوك</string>
+    <string name="second30">30 ثانية</string>
+    <string name="hour1">1 ساعة</string>
+    <string name="hour2">"2 ساعة "</string>
+    <string name="hour3">3 ساعة</string>
+    <string name="hour4">4 ساعة</string>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".codeJava.Login"
+    android:background="@color/blue"
+    style="@style/Base.Theme.Facebook"
+
+    >
+
+
+    <TextView
+        android:id="@+id/TV_Facebook_Title"
+        android:text="@string/facebooktitle"
+        android:textColor="@color/White"
+        android:textSize="55sp"
+        android:fontFamily="sans-serif-black"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.3"
+        android:gravity="center_horizontal|bottom"
+        tools:ignore="MissingConstraints"
+        android:background="@color/blue"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/Linear_layout_input_info"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.15"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/TV_Facebook_Title"
+        android:layout_marginTop="30dp"
+        android:weightSum="2"
+
+      >
+
+
+        <EditText
+            android:id="@+id/ET_EnterMaile"
+            android:hint="@string/HintEmailOrPhone"
+            android:autofillHints="emailAddress"
+            android:fontFamily="sans-serif-black"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingStart="10dp"
+            tools:ignore="MissingConstraints"
+            android:background="@drawable/rounded_rect_up"
+            ></EditText>
+        <View
+            android:id="@+id/vi_Line"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintTop_toBottomOf="@id/btn_like_counts"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+        <EditText
+            android:id="@+id/ET_EnterPassword"
+            android:hint="@string/HintPassword"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:autofillHints="password"
+            android:fontFamily="sans-serif-black"
+            android:paddingStart="10dp"
+            tools:ignore="MissingConstraints"
+            android:background="@drawable/rounded_rect_down"
+            ></EditText>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/Btn_Login"
+        android:text="@string/Login"
+        android:textSize="20sp"
+        android:backgroundTint="#546BA5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.10"
+        app:layout_constraintTop_toBottomOf="@id/Linear_layout_input_info"
+        android:layout_margin="20dp"
+
+
+        ></Button>
+
+
+    <Button
+        android:id="@+id/Btn_Sign_Up_For_Facebook"
+        android:text="@string/signUPforFacebook"
+        android:textSize="18dp"
+        android:backgroundTint="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/Btn_Login"
+        app:layout_constraintHeight_percent="0.15"
+        android:gravity="center_horizontal|bottom"
+        android:layout_marginTop="100dp"
+        ></Button>
+
+    <Button
+        android:id="@+id/Btn_HelpCenter"
+        android:text="@string/HelpCenter"
+        android:textSize="18dp"
+        android:backgroundTint="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/Btn_Sign_Up_For_Facebook"
+        app:layout_constraintHeight_percent="0.15"
+        android:gravity="center_horizontal|bottom"
+        android:layout_margin="20dp"
+        ></Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

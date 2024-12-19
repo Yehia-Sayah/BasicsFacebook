@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Facebook" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+        <item name="android:textColor">@color/White</item>
+        <item name="android:background">@color/black</item>
+
+
+        </style>
+
+    <!--
+
+  // Dark Mood
+  // Screen background if Dark mode on
+    <style name="SCREEN">
+        <item name="android:background">@color/black</item>
+    </style>
+
+    // Texts background if Dark mode on
+    <style name="Text">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+     // Button Background if Dark mode on
+    <style name="BUTTON">
+        <item name="android:background">@color/gray</item>
+        <item name="android:textColor">@color/white</item>
+     </style>
+
+    -->
+
+
+</resources>
